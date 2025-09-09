@@ -1,13 +1,13 @@
-2025-09-09 12:48:23,265 - DEBUG - Starting Application
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Car Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,265 - DEBUG - Added the item: Car Details: Type =Sedan, Brand = Toyota
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Car Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,265 - DEBUG - Added the item: Car Details: Type =Sedan, Brand = Honda
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Car Object
-2025-09-09 12:48:23,265 - DEBUG - Initialize Engine Object
-2025-09-09 12:48:23,266 - DEBUG - Added the item: Car Details: Type =Truck, Brand = Isuzu
+2025-09-09 13:31:36,561 - DEBUG - Starting Application
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Car Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Added the item: Car Details: Type =Sedan, Brand = Toyota
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Car Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Added the item: Car Details: Type =Sedan, Brand = Honda
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Car Object
+2025-09-09 13:31:36,562 - DEBUG - Initialize Engine Object
+2025-09-09 13:31:36,562 - DEBUG - Added the item: Car Details: Type =Truck, Brand = Isuzu

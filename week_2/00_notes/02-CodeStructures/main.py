@@ -6,11 +6,11 @@ import logging
 os.chdir(sys.path[0])
 
 #Import custom objects
-from engine import engine
+from vehicle_parts.engine import engine
 
-from car import car
-from car_sedan import car_sedan
-from car_trucks import car_trucks
+from vehicle.car import car
+from vehicle.car_sedan import car_sedan
+from vehicle.car_trucks import car_trucks
 
 
 #Import logging configuration

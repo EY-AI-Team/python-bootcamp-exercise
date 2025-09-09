@@ -1,4 +1,6 @@
 import tkinter as tk
+#https://docs.python.org/3/library/tkinter.html
+
 from tkinter import ttk, filedialog, messagebox
 import csv
 
@@ -8,7 +10,7 @@ class MainForm(tk.Tk):
         self.title("CSV Table Viewer")
         self.geometry("800x400")
 
-        self.load_btn = ttk.Button(self, text="Load CSV", command=self.load_csv)
+        self.load_btn = ttk.Button(self, text="Open", command=self.load_csv)
         self.load_btn.pack(pady=10)
 
         self.table = ttk.Treeview(self)
