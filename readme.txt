@@ -7,3 +7,5 @@ Create a branch name using the following format
 
 **Note: All branches created the prior week will be removed on the 
 Monday of the following week.
+
+**Updates
