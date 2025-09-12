@@ -2,6 +2,7 @@ import os
 import csv
 import logging
 
+from tkinter import filedialog
 from Validator.DataValidator import DataValidator
 
 #[START] - Class Body
@@ -9,9 +10,8 @@ class DataLoad_CSV:
     #--------------------------------------------------------------------------------------
     # Initialize all variables used in the class
     #--------------------------------------------------------------------------------------
-    def __init__(self, file_path):
+    def __init__(self):
         logging.debug("Initialize FileLoader Object")
-        self.file_path = file_path
         self.dataset_raw = []
         self.dataset_valid = []
 
@@ -20,18 +20,23 @@ class DataLoad_CSV:
     # Validate individual data fields
     #--------------------------------------------------------------------------------------
     def load_csv(self):
-        if not os.path.isfile(self.file_path):
-            logging.error(f"File not found: {self.file_path}")
-            raise FileNotFoundError(f"File not found: {self.file_path}")
 
-        with open(self.file_path, newline='', encoding='utf-8') as csvfile:
+        file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
+        if not file_path:
+            return
+    
+        if not os.path.isfile(file_path):
+            logging.error(f"File not found: {file_path}")
+            raise FileNotFoundError(f"File not found: {file_path}")
+
+        with open(file_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             self.dataset_raw = list(reader)
             if not self.dataset_raw:
                 logging.error("CSV file is empty.")
                 raise ValueError("CSV file is empty.")
             
-            logging.info(f"Successfully loaded CSV file: {self.file_path}")
+            logging.info(f"Successfully loaded CSV file: {file_path}")
     
     #--------------------------------------------------------------------------------------
     # Validate individual data fields
@@ -55,7 +60,8 @@ class DataLoad_CSV:
         return True
 
 
-    #--------------------------------------------------------------------------------------    # Get loaded data
+    #--------------------------------------------------------------------------------------    
+    # Get validated data
     #--------------------------------------------------------------------------------------
     def get_data(self):
         if len(self.dataset_valid) == 0:

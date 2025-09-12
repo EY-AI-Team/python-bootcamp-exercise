@@ -93,4 +93,5 @@ class DataValidator:
         if str(value).strip() == "":
             logging.warning(f"Empty string detected on row : {self.row_num} ")
             return True
-        return False        
+        return False   
+         
