@@ -15,6 +15,9 @@ class DataSave_EXCEL:
         logging.debug("Initialize FileLoader Object")
         self.dataset = dataset
 
+    #--------------------------------------------------------------------------------------
+    # Save data to Excel file
+    #--------------------------------------------------------------------------------------
     def save_excel(self):
         if not self.dataset or len(self.dataset) < 2:
             logging.error("No data available to save.")

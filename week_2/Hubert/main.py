@@ -31,12 +31,8 @@ class EmployeeDisplay(tk.Tk):
         self.table.pack(expand=True, fill='both')
 
     def load_csv(self):
-        file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
-        if not file_path:
-            return
-
         try:
-            self.fl = DataLoad_CSV(file_path)
+            self.fl = DataLoad_CSV()
             self.fl.load_csv()
             self.fl.validate()
             valid_data = self.fl.get_data()
