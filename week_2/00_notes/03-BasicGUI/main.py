@@ -32,6 +32,7 @@ class MainForm(tk.Tk):
                 # Clear previous table
                 for col in self.table.get_children():
                     self.table.delete(col)
+                
                 self.table["columns"] = []
                 self.table["show"] = "headings"
 
