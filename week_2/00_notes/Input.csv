@@ -1,0 +1,5 @@
+EmployeeID,FirstName,LastName,Email,Phone,Department,Position,HireDate,Salary,ManagerID,Location,Status
+101,John,Doe,john.doe@example.com,123-456-7890,Sales,Manager,2020-01-15,75000,201,New York,Active
+102,Jane,Smith,jane.smith@example.com,981-654-3210,Marketing,Coordinator,2019-07-23,55000,202,Los Angeles,Active
+103,Bob,Johnson,bob.johnson@example.com,555-123-4567,IT,Developer,2021-03-11,80000,203,Chicago,Active
+104,Alice,Williams,alice.williams@example.com,444-987-6543,HR,Recruiter,2018-11-05,62000,204,Boston,Active
