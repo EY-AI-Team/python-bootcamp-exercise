@@ -2,9 +2,6 @@ import os
 import sys
 import logging
 
-#Import logging configuration
-from logging_config import setup_logging
-
 #[START] - Class Body
 class engine:
     #--------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+2025-09-09 15:14:58,162 , DEBUG , Starting Application
+2025-09-09 15:14:58,162 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,162 , DEBUG , Initialize Car Object
+2025-09-09 15:14:58,162 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,162 , DEBUG , Added the item: Car Details: Type =Sedan, Brand = Toyota
+2025-09-09 15:14:58,163 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,163 , DEBUG , Initialize Car Object
+2025-09-09 15:14:58,163 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,163 , DEBUG , Added the item: Car Details: Type =Sedan, Brand = Honda
+2025-09-09 15:14:58,163 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,163 , DEBUG , Initialize Car Object
+2025-09-09 15:14:58,163 , DEBUG , Initialize Engine Object
+2025-09-09 15:14:58,163 , DEBUG , Added the item: Car Details: Type =Truck, Brand = Isuzu
+2025-09-09 15:14:58,163 , WARNING , Error displaying vehicle details: Error is encountered while generating the details.
+2025-09-09 15:15:13,569 ,  Starting Application
+2025-09-09 15:15:13,569 ,  Initialize Engine Object
+2025-09-09 15:15:13,569 ,  Initialize Car Object
+2025-09-09 15:15:13,569 ,  Initialize Engine Object
+2025-09-09 15:15:13,569 ,  Added the item: Car Details: Type =Sedan, Brand = Toyota
+2025-09-09 15:15:13,569 ,  Initialize Engine Object
+2025-09-09 15:15:13,569 ,  Initialize Car Object
+2025-09-09 15:15:13,569 ,  Initialize Engine Object
+2025-09-09 15:15:13,570 ,  Added the item: Car Details: Type =Sedan, Brand = Honda
+2025-09-09 15:15:13,570 ,  Initialize Engine Object
+2025-09-09 15:15:13,570 ,  Initialize Car Object
+2025-09-09 15:15:13,570 ,  Initialize Engine Object
+2025-09-09 15:15:13,570 ,  Added the item: Car Details: Type =Truck, Brand = Isuzu
+2025-09-09 15:15:13,570 ,  Error displaying vehicle details: Error is encountered while generating the details.
