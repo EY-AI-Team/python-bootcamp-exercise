@@ -69,6 +69,8 @@ class car:
             raise "Error: Color not set.";
     
         print(f"Car Details: Type = {self.type}, Brand = {self.brand}, Color = {self.color}, Wheel Count = {self.wheel_count}");
+    
+        raise Exception("Error is encountered while generating the details.");
 
     #--------------------------------------------------------------------------------------
     # Write engine details to console
