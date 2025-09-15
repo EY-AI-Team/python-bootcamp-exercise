@@ -1,0 +1,16 @@
+2025-09-12 15:38:02,084 - WARNING - Empty string detected on row : 11 
+2025-09-12 15:38:02,084 - WARNING - Invalid email format on row : 11 : 
+2025-09-12 15:43:02,080 - ERROR - 'DataLoad_CSV' object has no attribute 'file_path'
+2025-09-12 15:43:58,315 - WARNING - Empty string detected on row : 11 
+2025-09-12 15:43:58,316 - WARNING - Invalid email format on row : 11 : 
+2025-09-15 18:58:07,556 - WARNING - Empty string detected on row : 3 
+2025-09-15 18:58:07,556 - WARNING - Empty string detected on row : 4 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 5 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 6 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 7 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 8 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 9 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 10 
+2025-09-15 18:58:07,557 - WARNING - Empty string detected on row : 11 
+2025-09-15 18:58:07,557 - WARNING - Invalid email format on row : 11 : 
+2025-09-15 18:58:07,557 - WARNING - Invalid phone number format on row : 11 : 
