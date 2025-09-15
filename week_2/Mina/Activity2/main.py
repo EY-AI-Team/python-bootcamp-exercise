@@ -37,6 +37,7 @@ class App:
         self.root.title("Employee CSV Loader")
         self.data = None
         self.header = None
+        self.geometry("800x400")
 
         # Table
         self.table = ttk.Treeview(root)
