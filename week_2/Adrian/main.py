@@ -15,16 +15,18 @@ class EmployeeDisplay(tk.Tk):
         self.title("CSV Table Viewer")
         self.geometry("800x400")
 
-
-        # Button frame
-        button_frame = ttk.Frame(self)
+        # Futuristic button frame
+        button_frame = tk.Frame(self, bg="#181A20", bd=3, relief="ridge", highlightbackground="#00FFF7", highlightthickness=2)
         button_frame.pack(fill=tk.X, pady=(10, 0))
 
-        
-        self.load_btn = ttk.Button(button_frame, text="Open", command=self.load_csv)
+        # Custom style for buttons
+        style = ttk.Style()
+        style.configure("Futuristic.TButton", foreground="#00FFF7", background="#181A20", font=("Segoe UI", 12, "bold"))
+
+        self.load_btn = ttk.Button(button_frame, text="Open", command=self.load_csv, style="Futuristic.TButton")
         self.load_btn.pack(side=tk.RIGHT, padx=(10, 0))
 
-        self.save_btn = ttk.Button(button_frame, text="Save", command=self.save_csv, state=tk.DISABLED)
+        self.save_btn = ttk.Button(button_frame, text="Save", command=self.save_csv, state=tk.DISABLED, style="Futuristic.TButton")
         self.save_btn.pack(side=tk.RIGHT)
 
         self.table = ttk.Treeview(self)
