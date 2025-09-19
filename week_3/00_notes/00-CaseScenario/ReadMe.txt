@@ -15,6 +15,8 @@ Create the API application with the following description:
     
     5. Log all errors into the a single execution log
 
+    6. Return the contents as JSON response.
+
 Create an HTML application
     https://flask.palletsprojects.com/en/stable/
 
