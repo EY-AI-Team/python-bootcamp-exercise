@@ -46,24 +46,24 @@ async def get_employee(file: UploadFile = File(...)):
             continue
 
         if any(cell.strip() == "" for cell in row):
-            errors_log.append(f"Line {idx}: Empty string found")
+            errors_log.append(f"Line {idx}: Empty string found in one or more columns")
             invalid_rows.append(row)
             continue
 
         try:
             employee_id = int(row[0])
         except ValueError:
-            errors_log.append(f"Line {idx}: Employee ID not integer")
+            errors_log.append(f"Line {idx}: Employee ID not an integer")
             invalid_rows.append(row)
             continue
 
         if not validate_email(row[2]):
-            errors_log.append(f"Line {idx}: Invalid email")
+            errors_log.append(f"Line {idx}: Invalid email format")
             invalid_rows.append(row)
             continue
 
         if not validate_phone(row[3]):
-            errors_log.append(f"Line {idx}: Invalid phone")
+            errors_log.append(f"Line {idx}: Invalid phone number format")
             invalid_rows.append(row)
             continue
 

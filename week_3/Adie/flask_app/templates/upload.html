@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Employee CSV</title>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <input type="submit" value="Upload">
+    </form>
+
+    {% if result %}
+        <h2>Valid Employees ({{ result.valid_employees | length }})</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            {% for row in result.valid_employees %}
+                <tr>
+                    {% for col in row %}
+                        <td>{{ col }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Invalid Rows: {{ result.invalid_count }}</h3>
+
+        {% if result.errors_log %}
+        <h4>Error Logs:</h4>
+        <ul>
+            {% for err in result.errors_log %}
+                <li>{{ err }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endif %}
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
