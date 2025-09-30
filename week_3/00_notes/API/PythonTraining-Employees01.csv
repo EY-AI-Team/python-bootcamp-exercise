@@ -1,0 +1,11 @@
+﻿EmployeeID,FirstName,LastName,EmailAddress,JobTitle,PrimaryPhone,SecondaryPhone,Title,AddedBy,AddedOn,ModifiedBy,ModifiedOn
+1,Nancy,Freehafer,nancy@northwindtraders.com,Sales Representative,123-555-0100         ,123-555-0200         ,Ms.,Admin,21-Sep-24,Admin,21-Sep-24
+2,Andrew,Cencini,andrew@northwindtraders.com,"Vice President, Sales",123-555-0101         ,,Mr.,Admin,21-Sep-24,Admin,21-Sep-24
+3,Jan,Kotas,jan@northwindtraders.com,Sales Representative,123-555-0102         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+4,Mariya,Sergienko,mariya@northwindtraders.com,Sales Representative,123-555-0103         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+5,Steven,Thorpe,steven@northwindtraders.com,Sales Manager,123-555-0104         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+6,Michael,Neipper,michael@northwindtraders.com,Sales Representative,123-555-0105         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+7,Robert,Zare,robert@northwindtraders.com,Sales Representative,123-555-0106         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+8,Laura,Giussani,laura@northwindtraders.com,Sales Coordinator,123-555-0107         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+9,Anne,Hellung-Larsen,anne@northwindtraders.com,Sales Representative,123-555-0108         ,,,Admin,21-Sep-24,Admin,21-Sep-24
+10,Internet,Sales,,Internet Bot,,,,Admin,21-Sep-24,Admin,21-Sep-24
