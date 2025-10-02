@@ -1,6 +1,0 @@
-2025-09-24 14:53:01,051 - ERROR - File not found: C:\Users\AC129VR\OneDrive - EY\Documents\GitHub\python-bootcamp-exercise\week_3\00_notes\00-CaseScenario\API\PythonTraining-Employees02.csv
-2025-09-24 14:53:01,052 - ERROR - Error processing CSV: File not found: C:\Users\AC129VR\OneDrive - EY\Documents\GitHub\python-bootcamp-exercise\week_3\00_notes\00-CaseScenario\API\PythonTraining-Employees02.csv
-2025-09-24 14:53:29,247 - WARNING - Empty string detected on row : 11 
-2025-09-24 14:53:29,247 - WARNING - Invalid email format on row : 11 : 
-2025-09-24 15:19:07,622 - WARNING - Empty string detected on row : 11 
-2025-09-24 15:19:07,623 - WARNING - Invalid email format on row : 11 : 

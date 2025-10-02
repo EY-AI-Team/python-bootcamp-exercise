@@ -12,7 +12,6 @@ from Model.DataLoad_CSV import DataLoad_CSV
 
 #Setup logging
 setup_logging()
-
 logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
@@ -58,6 +57,7 @@ async def read_csv():
         response = json.dumps(fl.get_data())
         
         return response
+
         
     except Exception as e:
         logger.error(f"Error processing CSV: {str(e)}")
