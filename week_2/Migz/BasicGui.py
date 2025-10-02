@@ -1,0 +1,87 @@
+import tkinter as tk
+#https://docs.python.org/3/library/tkinter.html
+
+from tkinter import ttk, filedialog, messagebox
+import csv
+import EmailValidation
+import EmptyRows
+import ValidatePhoneNumber
+import ValidateEmpID
+#import SavetoExcel
+import logging
+
+class MainForm(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("CSV Table Viewer")
+        self.geometry("800x400")
+
+        self.load_btn = ttk.Button(self, text="Open", command=self.load_csv)
+        self.load_btn.pack(pady=1)
+       # self.load_btn = ttk.Button(self, text="Clear", command=self.clean_table)
+       # self.load_btn.pack(pady=1, side="top", )
+        self.load_btn = ttk.Button(self, text="Quit", command=self.destroy)
+        self.load_btn.pack(pady=1, side="top", )
+        self.table = ttk.Treeview(self)
+        self.table.pack(expand=True, fill='both')
+        
+    def clean_table(self):
+        try:
+             # Clear previous table
+            for col in self.table.get_children():
+                    self.table.delete(col)
+                    self.table["columns"] = []
+                    self.table["show"] = "headings"
+        except Exception as e:
+            messagebox.showerror("Error", str(e))    
+  
+
+    def load_csv(self):
+        file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
+        if not file_path:
+            return
+
+        try:
+
+            with open(file_path, newline='', encoding='utf-8') as csvfile:
+                reader = csv.reader(csvfile)
+                rows = list(reader)
+           
+                if not rows:
+                    messagebox.showerror("Error", "CSV file is empty.")
+                    return
+                
+                # validation
+
+                #SavetoExcel.process_rows(rows)
+                EmailValidation.process_rows(rows)
+                ValidatePhoneNumber.process_rows(rows)
+                ValidateEmpID.process_rows(rows)
+                EmptyRows.process_rows(rows)
+           
+                # Clear previous table
+                for col in self.table.get_children():
+                    self.table.delete(col)
+                    self.table["columns"] = []
+                    self.table["show"] = "headings"
+                
+                # Set headers
+                headers = rows[0]
+                self.table["columns"] = headers
+                for h in headers:
+                    self.table.heading(h, text=h)
+                    self.table.column(h, width=100)
+
+                # Insert rows
+                for row in rows[1:]:
+                    self.table.insert("", "end", values=row)
+        
+        except Exception as e:
+            messagebox.showerror("Error", str(e))
+
+    def new_method(self, rows):
+        return rows
+
+if __name__ == "__main__":
+    app = MainForm()
+    app.mainloop()

@@ -3,3 +3,5 @@
 2025-09-12 15:43:02,080 - ERROR - 'DataLoad_CSV' object has no attribute 'file_path'
 2025-09-12 15:43:58,315 - WARNING - Empty string detected on row : 11 
 2025-09-12 15:43:58,316 - WARNING - Invalid email format on row : 11 : 
+2025-09-24 14:35:00,399 - WARNING - Empty string detected on row : 11 
+2025-09-24 14:35:00,400 - WARNING - Invalid email format on row : 11 : 

@@ -1,0 +1,120 @@
+2025-09-12 13:44:48,452 - DEBUG - Valid email
+2025-09-12 13:44:48,453 - DEBUG - Valid email
+2025-09-12 13:44:48,454 - DEBUG - Valid email
+2025-09-12 13:44:48,454 - DEBUG - Valid email
+2025-09-12 13:44:48,455 - DEBUG - Valid email
+2025-09-12 13:44:48,455 - DEBUG - Valid email
+2025-09-12 13:44:48,455 - DEBUG - Valid email
+2025-09-12 13:44:48,456 - DEBUG - Valid email
+2025-09-12 13:44:48,456 - DEBUG - Valid email
+2025-09-12 13:44:48,456 - DEBUG - Invalid email
+2025-09-12 13:44:48,458 - DEBUG - Invalid Phone Number
+2025-09-12 13:44:48,462 - DEBUG - There is empty in line  # :  3
+2025-09-12 13:44:48,462 - DEBUG - There is empty in line  # :  4
+2025-09-12 13:44:48,463 - DEBUG - There is empty in line  # :  4
+2025-09-12 13:44:48,464 - DEBUG - There is empty in line  # :  5
+2025-09-12 13:44:48,464 - DEBUG - There is empty in line  # :  5
+2025-09-12 13:44:48,465 - DEBUG - There is empty in line  # :  6
+2025-09-12 13:44:48,465 - DEBUG - There is empty in line  # :  6
+2025-09-12 13:44:48,466 - DEBUG - There is empty in line  # :  7
+2025-09-12 13:44:48,466 - DEBUG - There is empty in line  # :  7
+2025-09-12 13:44:48,467 - DEBUG - There is empty in line  # :  8
+2025-09-12 13:44:48,467 - DEBUG - There is empty in line  # :  8
+2025-09-12 13:44:48,468 - DEBUG - There is empty in line  # :  9
+2025-09-12 13:44:48,468 - DEBUG - There is empty in line  # :  9
+2025-09-12 13:44:48,469 - DEBUG - There is empty in line  # :  10
+2025-09-12 13:44:48,469 - DEBUG - There is empty in line  # :  10
+2025-09-12 13:44:48,470 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:44:48,471 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:44:48,471 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:44:48,472 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:52:01,949 - DEBUG - Valid email
+2025-09-12 13:52:01,951 - DEBUG - Valid email
+2025-09-12 13:52:01,951 - DEBUG - Valid email
+2025-09-12 13:52:01,952 - DEBUG - Valid email
+2025-09-12 13:52:01,952 - DEBUG - Valid email
+2025-09-12 13:52:01,953 - DEBUG - Valid email
+2025-09-12 13:52:01,953 - DEBUG - Valid email
+2025-09-12 13:52:01,954 - DEBUG - Valid email
+2025-09-12 13:52:01,954 - DEBUG - Valid email
+2025-09-12 13:52:01,955 - DEBUG - Invalid email {countRow}
+2025-09-12 13:52:01,956 - DEBUG - Invalid Phone Number in line  11 
+2025-09-12 13:52:01,960 - DEBUG - There is empty in line  # :  3
+2025-09-12 13:52:01,961 - DEBUG - There is empty in line  # :  4
+2025-09-12 13:52:01,962 - DEBUG - There is empty in line  # :  4
+2025-09-12 13:52:01,964 - DEBUG - There is empty in line  # :  5
+2025-09-12 13:52:01,965 - DEBUG - There is empty in line  # :  5
+2025-09-12 13:52:01,966 - DEBUG - There is empty in line  # :  6
+2025-09-12 13:52:01,967 - DEBUG - There is empty in line  # :  6
+2025-09-12 13:52:01,968 - DEBUG - There is empty in line  # :  7
+2025-09-12 13:52:01,969 - DEBUG - There is empty in line  # :  7
+2025-09-12 13:52:01,970 - DEBUG - There is empty in line  # :  8
+2025-09-12 13:52:01,970 - DEBUG - There is empty in line  # :  8
+2025-09-12 13:52:01,971 - DEBUG - There is empty in line  # :  9
+2025-09-12 13:52:01,971 - DEBUG - There is empty in line  # :  9
+2025-09-12 13:52:01,971 - DEBUG - There is empty in line  # :  10
+2025-09-12 13:52:01,972 - DEBUG - There is empty in line  # :  10
+2025-09-12 13:52:01,972 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:52:01,973 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:52:01,973 - DEBUG - There is empty in line  # :  11
+2025-09-12 13:52:01,973 - DEBUG - There is empty in line  # :  11
+2025-09-12 14:35:31,635 - DEBUG - Valid email
+2025-09-12 14:35:31,636 - DEBUG - Valid email
+2025-09-12 14:35:31,636 - DEBUG - Valid email
+2025-09-12 14:35:31,636 - DEBUG - Valid email
+2025-09-12 14:35:31,637 - DEBUG - Valid email
+2025-09-12 14:35:31,637 - DEBUG - Valid email
+2025-09-12 14:35:31,637 - DEBUG - Valid email
+2025-09-12 14:35:31,637 - DEBUG - Valid email
+2025-09-12 14:35:31,638 - DEBUG - Valid email
+2025-09-12 14:35:31,638 - DEBUG - Invalid email {countRow}
+2025-09-12 14:35:31,640 - DEBUG - Invalid Phone Number in line  11 
+2025-09-12 14:35:31,643 - DEBUG - There is empty in line  # :  3
+2025-09-12 14:35:31,644 - DEBUG - There is empty in line  # :  4
+2025-09-12 14:35:31,645 - DEBUG - There is empty in line  # :  4
+2025-09-12 14:35:31,646 - DEBUG - There is empty in line  # :  5
+2025-09-12 14:35:31,647 - DEBUG - There is empty in line  # :  5
+2025-09-12 14:35:31,648 - DEBUG - There is empty in line  # :  6
+2025-09-12 14:35:31,648 - DEBUG - There is empty in line  # :  6
+2025-09-12 14:35:31,648 - DEBUG - There is empty in line  # :  7
+2025-09-12 14:35:31,649 - DEBUG - There is empty in line  # :  7
+2025-09-12 14:35:31,649 - DEBUG - There is empty in line  # :  8
+2025-09-12 14:35:31,649 - DEBUG - There is empty in line  # :  8
+2025-09-12 14:35:31,650 - DEBUG - There is empty in line  # :  9
+2025-09-12 14:35:31,651 - DEBUG - There is empty in line  # :  9
+2025-09-12 14:35:31,652 - DEBUG - There is empty in line  # :  10
+2025-09-12 14:35:31,652 - DEBUG - There is empty in line  # :  10
+2025-09-12 14:35:31,653 - DEBUG - There is empty in line  # :  11
+2025-09-12 14:35:31,654 - DEBUG - There is empty in line  # :  11
+2025-09-12 14:35:31,654 - DEBUG - There is empty in line  # :  11
+2025-09-12 14:35:31,655 - DEBUG - There is empty in line  # :  11
+2025-09-12 15:06:01,334 - DEBUG - Valid email
+2025-09-12 15:06:01,336 - DEBUG - Valid email
+2025-09-12 15:06:01,337 - DEBUG - Valid email
+2025-09-12 15:06:01,338 - DEBUG - Valid email
+2025-09-12 15:06:01,339 - DEBUG - Valid email
+2025-09-12 15:06:01,340 - DEBUG - Valid email
+2025-09-12 15:06:01,342 - DEBUG - Valid email
+2025-09-12 15:06:01,343 - DEBUG - Valid email
+2025-09-12 15:06:01,344 - DEBUG - Valid email
+2025-09-12 15:06:01,345 - DEBUG - Invalid email {countRow}
+2025-09-12 15:06:01,350 - DEBUG - Invalid Phone Number in line  11 
+2025-09-12 15:06:01,356 - DEBUG - There is empty in line  # :  3
+2025-09-12 15:06:01,358 - DEBUG - There is empty in line  # :  4
+2025-09-12 15:06:01,360 - DEBUG - There is empty in line  # :  4
+2025-09-12 15:06:01,362 - DEBUG - There is empty in line  # :  5
+2025-09-12 15:06:01,363 - DEBUG - There is empty in line  # :  5
+2025-09-12 15:06:01,365 - DEBUG - There is empty in line  # :  6
+2025-09-12 15:06:01,366 - DEBUG - There is empty in line  # :  6
+2025-09-12 15:06:01,368 - DEBUG - There is empty in line  # :  7
+2025-09-12 15:06:01,369 - DEBUG - There is empty in line  # :  7
+2025-09-12 15:06:01,370 - DEBUG - There is empty in line  # :  8
+2025-09-12 15:06:01,372 - DEBUG - There is empty in line  # :  8
+2025-09-12 15:06:01,373 - DEBUG - There is empty in line  # :  9
+2025-09-12 15:06:01,374 - DEBUG - There is empty in line  # :  9
+2025-09-12 15:06:01,376 - DEBUG - There is empty in line  # :  10
+2025-09-12 15:06:01,377 - DEBUG - There is empty in line  # :  10
+2025-09-12 15:06:01,378 - DEBUG - There is empty in line  # :  11
+2025-09-12 15:06:01,379 - DEBUG - There is empty in line  # :  11
+2025-09-12 15:06:01,380 - DEBUG - There is empty in line  # :  11
+2025-09-12 15:06:01,382 - DEBUG - There is empty in line  # :  11

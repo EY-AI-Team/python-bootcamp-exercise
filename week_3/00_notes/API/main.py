@@ -54,9 +54,10 @@ async def read_csv():
         fl.get_data()
         
         # Convert to JSON-serializable format
-        #response = json.dumps(fl.get_data())
+        response = json.dumps(fl.get_data())
         
-        return fl.get_data()
+        return response
+
         
     except Exception as e:
         logger.error(f"Error processing CSV: {str(e)}")
