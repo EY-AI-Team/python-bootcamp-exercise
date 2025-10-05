@@ -19,6 +19,7 @@ class MainForm(tk.Tk):
     def load_csv(self):
         file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
         if not file_path:
+            messagebox.showerror("Error", "No file selected.")
             return
 
         try:
